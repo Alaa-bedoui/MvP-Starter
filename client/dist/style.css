@@ -1,0 +1,106 @@
+body {
+  background-image: url("https://img1.goodfon.com/wallpaper/nbig/4/a1/building-apartment-windows.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "PT Serif", sans-serif;
+  margin: 0px;
+  font-size: 1.1em;
+}
+
+.zidna {
+  margin-left: 40%;
+  margin-top: 10%;
+  margin-left: 30%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 30%;
+}
+
+#inputname {
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+#adder {
+  margin-left: 70px;
+}
+
+#inputimg {
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+#zidbut {
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+#listname {
+  color:  rgb(112, 112, 16);
+  font-size: 40PX;
+  position: relative;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#bouton{
+  background-color: aqua;
+  border-radius: 50%,
+}
+  
+  
+
+#lista {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr, 1fr;
+  gap: 10px;
+}
+#loginTab {
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+#budget{
+  color: rgb(112, 112, 16);
+  padding: 0px;
+  margin: 0px;
+  border-color:sienna;
+  border-radius: 15px;;
+  border-style: groove;
+  border-width: 10px;
+  width: 80PX;
+  background-color: whitesmoke;
+}
+#balas {
+  color: aqua;
+  position: relative;
+  margin-left: 30px;
+}
+#balas1 {
+  color: aqua;
+  margin-left: 38%;
+  margin-top: 50px;
+  font-size: 100px;
+}
+#name {
+  color: aqua;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#pw {
+  color: aqua;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#butt {
+  margin-left: 65px;
+  align-items: center;
+}
