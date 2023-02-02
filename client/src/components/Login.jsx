@@ -9,8 +9,7 @@ const Login=({setView,setthewanted})=> {
       axios
         .get(`http://localhost:3000/api/owners/getOne/${name}/${pw}`)
         .then((res) => {
-          if (res.data.length === 0) {alert("Wrong Username or Password ! :/ ") 
-        return false}
+          if (res.data.length === 0) alert("Wrong Username or Password ! :/ ") 
           else {console.log(res.data), setthewanted(res.data),setView('balas')}
           
         });
